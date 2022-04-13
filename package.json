@@ -1,0 +1,26 @@
+{
+  "name": "dot503",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sakshamnanda/DOT503.git"
+  },
+  "keywords": [
+    "devtools",
+    "project"
+  ],
+  "author": "Saksham Nanda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sakshamnanda/DOT503/issues"
+  },
+  "homepage": "https://github.com/sakshamnanda/DOT503#readme",
+  "description": "",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
