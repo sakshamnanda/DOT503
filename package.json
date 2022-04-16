@@ -2,8 +2,10 @@
   "name": "dot503",
   "version": "1.0.0",
   "main": "main.js",
+  "type": "module",
   "scripts": {
-    "test": "jest"
+    "build": "rollup -c",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +24,8 @@
   "description": "",
   "devDependencies": {
     "jest": "^27.5.1"
+  },
+  "dependencies": {
+    "rollup": "^2.70.2"
   }
 }

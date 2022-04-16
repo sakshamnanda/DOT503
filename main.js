@@ -1,7 +1,4 @@
-// Same function as module {sum} for user testing.
-function sum(a, b) {
-    return a + b;
-}
+import sum from './sum.js';
 
 window.onload = function() {
     let submitBtn = document.getElementById("submit");
